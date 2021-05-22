@@ -31,6 +31,10 @@ if test -d $HOME/.cargo/bin
   set PATH $HOME/.cargo/bin $PATH
 end
 
+if test -d $HOME/flutter
+  set PATH $HOME/flutter/bin $PATH
+end
+
 if test -d /usr/local/cuda/bin
   set PATH /usr/local/cuda/bin $PATH
   set LD_LIBRARY_PATH /usr/local/cuda/lib64 $LD_LIBRARY_PATH

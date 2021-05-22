@@ -35,6 +35,9 @@ if dein#load_state('~/.cache/dein')
   " npm install -g elm elm-test elm-oracle elm-format @elm-tooling/elm-language-server
   call dein#add('andys8/vim-elm-syntax')
 
+  " For Flutter/Dart
+  call dein#add('dart-lang/dart-vim-plugin')
+
   " For HTML/CSS
   call dein#add('slim-template/vim-slim')
   call dein#add('wavded/vim-stylus')
